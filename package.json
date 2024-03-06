@@ -1,16 +1,20 @@
 {
   "name": "bitespeed",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Description of your project",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js", // Command to start your server
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Your Name",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.3",
     "pg": "^8.11.3"
+  },
+  "engines": {
+    "node": ">=14.0.0" // Adjust as needed based on your Node.js version
   }
 }
