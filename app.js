@@ -1,6 +1,6 @@
 // Import required modules
-const express = require('express');
-const pool = require('./database'); // Import the pool object from database.js
+import { Router } from 'express';
+import { Pool } from 'pg';
 
 // Create Express application
 const app = express();
