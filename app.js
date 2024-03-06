@@ -1,6 +1,6 @@
 // Import required modules
-import { Router } from 'express';
-import { Pool } from 'pg';
+const express = require('express');
+const { Pool } = require('pg');
 
 // Create Express application
 const app = express();
